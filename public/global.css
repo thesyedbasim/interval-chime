@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@media screen and (max-width: 500px) {
+	html {
+		font-size: 75%;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	html {
+		font-size: 60%;
+	}
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
