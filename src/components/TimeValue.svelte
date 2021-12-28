@@ -27,7 +27,7 @@
 
 <style lang="scss">
 	input[type='number'] {
-		border: 2px solid #d1d1d1;
+		border: 2px solid var(--grey-3);
 		border-radius: 1.3rem;
 		height: 5rem;
 		width: 5rem;
@@ -35,10 +35,12 @@
 		text-align: center;
 		padding: 0;
 		margin: 0.5rem;
+		background-color: var(--grey-2);
+		color: #fff;
 
 		&:focus {
 			outline: none;
-			border: 2px solid #8a8a8a;
+			border: 2px solid var(--grey-4);
 		}
 	}
 </style>

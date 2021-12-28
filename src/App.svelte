@@ -80,17 +80,26 @@
 		border: none;
 		cursor: pointer;
 		font-size: 1.2rem;
+		transition: all 0.2s;
 
 		background-color: var(--bg-color);
 		color: var(--color);
 
+		&:hover,
+		&:focus {
+			outline: none;
+			background-color: var(--bg-dark-color);
+		}
+
 		&.green {
 			--bg-color: #3cb043;
+			--bg-dark-color: hsl(124, 50%, 28%);
 			--color: white;
 		}
 
 		&.red {
-			--bg-color: tomato;
+			--bg-color: #ff6347;
+			--bg-dark-color: #943b2b;
 			--color: white;
 		}
 	}
